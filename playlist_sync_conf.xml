@@ -1,0 +1,14 @@
+<config>
+	<m_src_path>
+		<path>YourPathHere</path>
+	</m_src_path>
+	<m_dest_path>
+		<path>YourPathHere</path>
+	</m_dest_path>
+	<playlists_src_path>
+		<path>YourPathHere</path>
+	</playlists_src_path>
+	<first_run>
+		<flag>Yes</flag>
+	</first_run>
+</config>
