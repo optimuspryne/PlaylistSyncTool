@@ -59,10 +59,10 @@ The file `playlist_sync_conf.xml` controls how playlists are processed. Example:
 ```xml
 <config>
   <m_src_path>
-    <path>C:\Users\You\Music</path>
+    <path>C:\Users\You\</path>
   </m_src_path>
   <m_dest_path>
-    <path>E:\Music</path>
+    <path>E:\</path>
   </m_dest_path>
   <playlists_src_path>
     <path>C:\Users\You\Playlists</path>
@@ -74,10 +74,10 @@ The file `playlist_sync_conf.xml` controls how playlists are processed. Example:
 ```
 
 **Key Parameters:**
-- **`m_src_path`** – where your source music files live
-- **`m_dest_path`** – target folder (e.g. your AGPTEK player’s music directory)
+- **`m_src_path`** – where your source music files live, script will look for 'Music' folder so make sure you don't select the 'Music' folder.
+- **`m_dest_path`** – target folder, e.g. your AGPTEK player’s music directory, you only need to specify the drive letter as the script will look for a 'Music' folder at the destination.
 - **`playlists_src_path`** – folder containing `.m3u` or `.m3u8` playlists
-- **`first_run`** – internal flag set by the installer after initial setup
+- **`first_run`** – internal flag set by the installer after initial setup.  If flag is set to 'Yes' then the program will ask you for the paths to src, dest and playlist files.
 
 ---
 
