@@ -140,11 +140,6 @@ PRs and issues are welcome! Include your PowerShell version, Windows version, an
 
 ---
 
-## License
-No explicit license file is present. The author is encouraged to add one (e.g. MIT).
-
----
-
 ## Credits
 Developed by **OptimusPryne**.  
 Designed for Navidrome + AGPTEK users.  
