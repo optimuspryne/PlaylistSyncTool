@@ -128,7 +128,7 @@ pwsh .\Copy-M3UPlaylistFiles.ps1 -Config "C:\path\to\playlist_sync_conf.xml"
 ---
 
 ## Uninstallation
-Uninstall from *Add/Remove Programs* if installed via MSI, or manually delete:
+Manually delete:
 ```
 %LOCALAPPDATA%\PlaylistSyncTool
 ```
